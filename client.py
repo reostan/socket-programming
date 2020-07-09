@@ -1,7 +1,7 @@
 #for server module
 import socket
 s = socket.socket()
-print("THe socket has been created")
+print("The socket has been created")
 s.bind(("localhost", 9999))
 s.listen(3)
 print("waiting for the connections")
